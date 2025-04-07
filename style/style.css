@@ -14,6 +14,7 @@ ul {
   margin: 0;
 }
 
+
 .header-bg {
     background-color: #098bdb;
   }
@@ -64,6 +65,29 @@ ul {
     width: 100%;
   }
 
+  .titulo {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .servicos {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .img_servico {
+    width: 400px;
+  }
+
+  .servicos-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 60px 0;
+  }
+
   .produtos-section {
     border-top: 1px solid gray;
     margin-bottom: 20px;
@@ -103,7 +127,7 @@ ul {
 
   footer {
     background-color: #098bdb;
-    height: 300px;
+    height: max-content;
   }
 
   .footer-container {
@@ -119,6 +143,7 @@ ul {
     grid-column: span 2;
     text-align: center;
     color: #f2f2f2;
+    margin-top: 80px;
   }
 
   .redes-sociais {
@@ -134,4 +159,49 @@ ul {
 
   .informacoes h2, ul {
     color: #f2f2f2;
+  }
+
+
+  .cadastro {
+    max-width: 1200px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cadastro h1 {
+    text-align: center;
+  }
+
+  form {
+    margin: 0 auto;
+  }
+
+  input:not([type="submit"]){
+    margin-bottom: 15px;
+  }
+
+  input:not([type="radio"], [type="submit"]) {
+    width: 400px;
+    height: 35px;
+    padding: 10px;
+  }
+
+  .botao {
+    width: 400px;
+    height: 35px;
+  }
+
+
+  .retirada-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .retirada-container h1 {
+    text-align: center;
   }

@@ -20,9 +20,10 @@
             <nav>
                 <ul class="header-menu">
                     <li><a href="index.html">Início</a></li>
-                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
                     <li><a href="#">Ofertas</a></li>
                     <li><a href="#contato">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
                     <li><a href="#">Carrinho</a></li>
                 </ul>
             </nav>
@@ -37,13 +38,13 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/banner1.png" class="d-block w-100" alt="...">
+                <img src="img/banner1.png" class="d-block w-100" alt="banner sobre cortes de carnes">
               </div>
               <div class="carousel-item">
-                <img src="img/banner2.png" class="d-block w-100" alt="...">
+                <img src="img/banner2.png" class="d-block w-100" alt="Banner sobre cosméticos">
               </div>
               <div class="carousel-item">
-                <img src="img/banner3.png" class="d-block w-100" alt="...">
+                <img src="img/banner3.png" class="d-block w-100" alt="Banner sobre ovos de páscoa da Garoto Caribe">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -55,15 +56,23 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-        <h1>Minimercado</h1>
+        <div class="titulo">
+            <h1>Minimercado</h1>
+        </div>
         <section class="servicos">
             <h2>Serviços</h2>
-            <ul>
-                <li><a href="#">Retirada no local</a></li>
-                <li><a href="#">Tele-entrega</a></li>
+            <ul class="servicos-container">
+                <div class="servico-tipo">
+                    <li><a href="#">Retirada no local</a></li>
+                    <a href="retirada.html"><img class="img_servico" src="img/retirada.png" alt="Retirada de produto no local"></a>
+                </div>
+                <div class="servico-tipo">
+                    <li><a href="#">Tele-entrega</a></li>
+                    <a href="entrega.html"><img class="img_servico" src="img/entrega.png" alt="Entrega à domicílio"></a>
+                </div>
             </ul>
         </section>
-        <section class="produtos-section">
+        <section id="produtos" class="produtos-section">
             <h2>Frutas e Verduras</h2>
             <div class="section-conteudo">
                 <div class="produto">
