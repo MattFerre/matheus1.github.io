@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-bg {
+    background-color: #098bdb;
+  }
+  
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .logo {
+    font-size: 32px;
+    color: white;
+  }
+
+  .header-menu a {
+    color: #ffffff;
+    display: inline-block;
+    padding: 16px 0px;
+    font-size: 18px;
+    position: relative;
+  }
+
+  .header-menu a:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0px;
+    background: #ffffff;
+    margin-top: 4px;
+    transition: 0.3s;
+    position: absolute;
+  }
+
+  .header-menu a:hover:after {
+    width: 100%;
+  }
+
+  .produtos-section {
+    border-top: 1px solid gray;
+    margin-bottom: 20px;
+  }
+
+  .produtos-section h2 {
+    max-width: 1200px;
+    padding: 20px 0;
+    margin: 0 auto;
+  }
+
+  .section-conteudo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: max-content;
+    padding: 20px;
+  }
+
+  .produto {
+    border: 1px solid grey;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .produto img {
+    justify-self: center;
+    grid-column: span 2;
+  }
+
+  .produto img {
+    width: 250px;
+  }
+
+  footer {
+    background-color: #098bdb;
+    height: 300px;
+  }
+
+  .footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .footer-container p {
+    grid-column: span 2;
+    text-align: center;
+    color: #f2f2f2;
+  }
+
+  .redes-sociais {
+    justify-self: end;
+    display: flex;
+    gap: 20px;
+  }
+
+  .social-media-icon {
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+  .informacoes h2, ul {
+    color: #f2f2f2;
+  }
